@@ -11,4 +11,3 @@ public class InfoDto {
     private String intro;
     private String about;
 }
-//
