@@ -1,14 +1,22 @@
-
-.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233
-/.idea/sonarlint
-HELP.md
-.gradle
-build/
+# Java and Gradle Files
+/build/
+.gradle/
 !gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### STS ###
+# IDE Directories
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# IntelliJ Specific
+.idea/sonarlint/
+.idea/sonarlint/issuestore/
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# STS Specific
 .apt_generated
 .classpath
 .factorypath
@@ -16,50 +24,37 @@ build/
 .settings
 .springBeans
 .sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### NetBeans ###
+# NetBeans Specific
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
+# Visual Studio Code
 .vscode/
 
-src/main/resources/application-local.properties
-
-### Following Firebase directory will store the credentials ###
-### Hence, ignored to prevent from getting pushed into the repo. ###
+# Firebase Credentials
 .firebase/
+
+# Logs
 *.log
-.gradle/8.10.2/executionHistory/executionHistory.bin
-.gradle/8.10.2/executionHistory/executionHistory.lock
-.gradle/8.10.2/fileHashes/fileHashes.bin
-.gradle/8.10.2/fileHashes/fileHashes.lock
-.gradle/8.10.2/fileHashes/resourceHashesCache.bin
-.gradle/buildOutputCleanup/cache.properties
-/build
-/.gradle
-*.bin
+
+# Temporary Files
 *.bin
 *.lock
-/.idea
-.idea/sonarlint/issuestore/2/9/2995c4a9bddb954d67bdbad9077f0a68898a740d
 *.class
-/.gradle
-/.gradle
-/.gradle
-/build
+
+
+
+# Gradle Cache and Execution History (Standard Paths)
+.gradle/8.10.2/executionHistory/
+.gradle/8.10.2/fileHashes/
+.gradle/buildOutputCleanup/
+
+# Ignore IDE build directories within main and test
+!**/src/main/**/build/
+!**/src/test/**/build/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
