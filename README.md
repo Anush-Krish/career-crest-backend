@@ -1,1 +1,1 @@
-Backend Speing boot application for Anush's career crest application
+Backend Spring boot application for Anush's career crest application
