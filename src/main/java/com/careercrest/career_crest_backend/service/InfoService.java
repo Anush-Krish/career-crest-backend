@@ -20,9 +20,10 @@ public class InfoService {
             return InfoDto.builder()
                     .intro("Anush's Career Crest")
                     .title("Java Full Stack Developer")
-                    .about("I'm Anush Krishna, having industry experience as a java backend developer," +
-                            "designed and implemented many functionalities from scratch and improved performance of existing " +
-                            "functionalities, also having hand's on knowledge of frontend development.")
+                    .about("\"I'm Anush Krishna, experienced Java backend developer with a strong track record of designing and " +
+                            "implementing core functionalities from the ground up, as well as optimizing the performance" +
+                            " of existing systems. Alongside my backend expertise, I have hands-on knowledge of frontend " +
+                            "development, enabling me to contribute effectively to full-stack project success.\"")
                     .topSkills(topSkills)
                     .build();
 
