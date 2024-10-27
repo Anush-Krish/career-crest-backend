@@ -51,3 +51,11 @@ src/main/resources/application-local.properties
 .gradle/8.10.2/fileHashes/fileHashes.lock
 .gradle/8.10.2/fileHashes/resourceHashesCache.bin
 .gradle/buildOutputCleanup/cache.properties
+/build
+/.gradle
+*.bin
+*.bin
+*.lock
+/.idea
+.idea/sonarlint/issuestore/2/9/2995c4a9bddb954d67bdbad9077f0a68898a740d
+*.class
