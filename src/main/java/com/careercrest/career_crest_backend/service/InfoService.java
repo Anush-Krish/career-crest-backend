@@ -15,11 +15,14 @@ public class InfoService {
 
     public InfoDto fetchInfo() {
         try {
-            List<String> topSkills = Arrays.asList("Spring boot", "PostgresSql", "Hibernate", "Redis", "Apache Kafka");
-            return InfoDto.builder().
-                    intro("Anush's Career Crest").
-                    about("I'm Anush Krishna, Full stack developer, having industry experience as a java backend developer," +
-                            "made many functionalities from scratch and improved performance of existing functionality ")
+            List<String> topSkills = Arrays.asList("Spring boot", "Apache Kafka", "PostgresSql", "Hibernate", "Redis",
+                    "React", "TypeScript");
+            return InfoDto.builder()
+                    .intro("Anush's Career Crest")
+                    .title("Java Full Stack Developer")
+                    .about("I'm Anush Krishna, having industry experience as a java backend developer," +
+                            "designed and implemented many functionalities from scratch and improved performance of existing " +
+                            "functionalities, also having hand's on knowledge of frontend development.")
                     .topSkills(topSkills)
                     .build();
 

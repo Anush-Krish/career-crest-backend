@@ -11,6 +11,7 @@ import java.util.List;
 @Builder
 public class InfoDto {
     private String intro;
+    private String title;
     private String about;
     private List<String> topSkills;
 }
