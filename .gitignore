@@ -59,3 +59,7 @@ src/main/resources/application-local.properties
 /.idea
 .idea/sonarlint/issuestore/2/9/2995c4a9bddb954d67bdbad9077f0a68898a740d
 *.class
+/.gradle
+/.gradle
+/.gradle
+/build
